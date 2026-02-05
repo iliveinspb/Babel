@@ -1,0 +1,28 @@
+{
+  "name": "babeling",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel . -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iliveinspb/Babel.git"
+  },
+  "author": "Anna K.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iliveinspb/Babel/issues"
+  },
+  "homepage": "https://github.com/iliveinspb/Babel#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.28.6",
+    "@babel/core": "^7.29.0",
+    "@babel/preset-env": "^7.29.0"
+  },
+  "dependencies": {
+    "core-js": "^3.48.0"
+  }
+}
